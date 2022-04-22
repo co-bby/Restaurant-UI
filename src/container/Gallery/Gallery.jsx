@@ -39,7 +39,7 @@ const Gallery = () => {
           View More
         </button>
       </div>
-      <div className="app__gallery">
+      <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
           {galleryImages.map((image, index) => (
             <div
